@@ -32,24 +32,35 @@ Steps to deploy:-
 To create:-
 
 npm install -g @angular/cli
+
 ng new angular-app
+
 cd angular-app
+
 ng serve --open
+
 npm install -g angular-cli-ghpages
+
 ng build --prod
 
 For Repository:- 
 
 git init
+
 git add README.md
+
 git commit -m "first commit"
+
 git remote add origin https://github.com/Paaarth/angular-app.git
+
 git push -u origin master
 
 To deploy:-
 
 "step1":"ng build --prod --base-href https://paaarth.github.io/angular-app/",
+
 "step2":"ngh --dir dist/"
 
 View On:- 
+
 https://paaarth.github.io/angular-app/
