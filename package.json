@@ -8,7 +8,10 @@
     "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "deploy": "ng build --prod --base-href https://Paaarth.github.io/angular-app/ && angular-cli-ghpages --branch gh-pages",
+    "step1":"ng build --prod --base-href https://paaarth.github.io/angular-app/",
+    "step2":"ngh --dir dist/"
   },
   "private": true,
   "dependencies": {
