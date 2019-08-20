@@ -27,9 +27,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 
-Steps to deploy:-
+## Steps to deploy:-
 
-To create:-
+## To create:-
 
 npm install -g @angular/cli
 
@@ -43,7 +43,7 @@ npm install -g angular-cli-ghpages
 
 ng build --prod
 
-For Repository:- 
+## For Repository:- 
 
 git init
 
@@ -55,12 +55,12 @@ git remote add origin https://github.com/Paaarth/angular-app.git
 
 git push -u origin master
 
-To deploy:-
+## To deploy:-
 
 "step1":"ng build --prod --base-href https://paaarth.github.io/angular-app/",
 
 "step2":"ngh --dir dist/"
 
-View On:- 
+## View On:- 
 
 https://paaarth.github.io/angular-app/
